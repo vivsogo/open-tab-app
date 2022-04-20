@@ -1,0 +1,18 @@
+{
+    "Drinks":[
+        { 
+            "id": 1,
+            "name": "Margarita" ,
+            "recipe": "Combine the tequila, lime juice, orange liqueur, and a few ice cubes in a cocktail shaker. (Or alternately if you do not have a cocktail shaker, you can stir the ingredients together in a measuring cup or shake them together in a mason jar.",
+            "image": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Classic-Margarita-Recipe-with-Text-1.jpg",
+
+        },
+        { 
+            "id": 1,
+            "name": "Margarita" ,
+            "recipe": "Combine the tequila, lime juice, orange liqueur, and a few ice cubes in a cocktail shaker. (Or alternately if you do not have a cocktail shaker, you can stir the ingredients together in a measuring cup or shake them together in a mason jar.",
+            "image": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Classic-Margarita-Recipe-with-Text-1.jpg",
+
+        }
+    ]
+}
