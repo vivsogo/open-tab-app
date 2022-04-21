@@ -1,8 +1,7 @@
 
-export const Header=({slogan,storeName}) => {
+export const Header=({slogan}) => {
   return (
     <div>
-        <h1>{storeName}</h1>
         <h2>{slogan}</h2>
     </div>
   )
