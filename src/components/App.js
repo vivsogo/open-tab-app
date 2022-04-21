@@ -7,15 +7,14 @@ import { Home } from './Home';
 import { About } from './About';
 import { DrinkCard } from './Drinks/DrinkCard';
 import {Header} from './Navigation/Header'
-
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router forceRefresh={true}>
         <Navbar/>
-        <Header slogan="its 5 o'clock somewhere "
-        storeName="Welcome to Drinks on Tab"/>
+        <Header slogan="its 5 o'clock somewhere "/>
         <Switch>
 
           <Route path ='/drinks/new'>
