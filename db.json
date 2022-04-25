@@ -8,11 +8,35 @@
 
         },
         { 
-            "id": 1,
-            "name": "Margarita" ,
-            "recipe": "Combine the tequila, lime juice, orange liqueur, and a few ice cubes in a cocktail shaker. (Or alternately if you do not have a cocktail shaker, you can stir the ingredients together in a measuring cup or shake them together in a mason jar.",
-            "image": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Classic-Margarita-Recipe-with-Text-1.jpg"
+            "id": 2,
+            "name": "Mojito" ,
+            "recipe":"Mint sprigs muddled with sugar and lime juice. Rum added and topped with soda water. Garnished with sprig of mint leaves. Served with a straw.",
+            "image":"https://images.unsplash.com/photo-1546171753-97d7676e4602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW9qaXRvfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
 
+        },
+        { 
+            "id": 3,
+            "name": "Moscow Mule" ,
+            "recipe":" Combine vodka and ginger beer in a copper mug or highball glass filled with ice. Add lime juice. Stir gently and garnish with a lime slice.",
+            "image":"https://media.istockphoto.com/photos/moscow-mule-highball-cocktail-and-a-long-vodka-drink-with-fresh-lime-picture-id1300893239?b=1&k=20&m=1300893239&s=170667a&w=0&h=Q61Uik_d6PfKb7Zu0kiBtbT3Y09o4f6zE9ktrGNaaLw="
+        },
+        { 
+            "id": 4,
+            "name": "Pina Colada" ,
+            "recipe":"Mix with crushed ice until smooth. Pour into chilled glass, garnish and serve.",
+            "image":"https://media.istockphoto.com/photos/pina-colada-with-pineapple-slices-on-wooden-table-picture-id462523193?k=20&m=462523193&s=612x612&w=0&h=1oRw8B28Vw7sJeYyRyfDtAX8ZaWsriA8leVGOd0AF5c="
+        },
+        { 
+            "id": 5,
+            "name": "Long Island Ice Tea" ,
+            "recipe":"Add all ingredients into highball glass filled with ice. Stir gently. Garnish with lemon spiral. Serve with straw.",
+            "image":"https://www.kindpng.com/picc/m/478-4784155_long-island-iced-tea-png-transparent-png.png"
+        },
+        { 
+            "id": 6,
+            "name": "Miami Vice" ,
+            "recipe":"In a blender, add 1 ounce of the rum, strawberries, lime juice, simple syrup and 1 cup crushed ice and blend until smooth.Pour into a hurricane glass and set in the freezer.Pour into the hurricane glass that already contains the Strawberry Daiquiri, creating a layered effect.Garnish with a pineapple slice.",
+            "image":"https://www.liquor.com/thmb/EpfrYWUW5_9N8LK2Sq8mbsqI5xI=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__05__24092020__miami-vice-720x720-recipe-27021aecab2d4503a25e2c08d36aea3b.jpg"
         }
     ]
 }
