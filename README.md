@@ -1,9 +1,12 @@
- # drinks on tab 
-
+ # Drinks on tab 
+ Drinks on Tab was created as a fun application to save your favorite drink recipes when going out with loved ones. During the pandemic all bars and social life had come to a halt and I had started to make drinks in the saftey of our home for my partner and I to enjoy.
  ## Description 
-
+Open Tab is a Drink reciepe application that serves as a quick and convenient collection of favorite drinks in your pocket. One function of the application is the recipe search feature in which an updated collection of recipes can be sorted through using any keywords that a user might use. The second function is the ability to add a Drink using the "Add a New Drink" tab where the user can fill out a form that will then add the drink they input to the Drinks on tab. 
  ## Installation 
-
+1. Fork and clone the repo
+2. Cd into the project and run npm install
+3. Run the json-server with: npm run server
+4. Run the React server with: npm start
 
 
 
@@ -81,7 +84,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## contribution 
+Please make sure to update tests as appropriate.
 
-## license 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
