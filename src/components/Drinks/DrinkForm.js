@@ -1,19 +1,19 @@
 import { useState } from "react"
 import { useHistory } from "react-router-dom"
-
+import React from "react"
 
 export const DrinkForm = () => {
-  const history = useHistory
+  const history = useHistory()
   const[name,setName] =useState("")
   const[recipe,setRecipe]= useState("")
   const[image,setImage]= useState("")
 
-  const handleSubmit =e=>{
+  const handleSubmit = e =>{
     e.preventDefault()
-    const newDrink={name,recipe,image}
+    const newDrink = {name,recipe,image}
 
     fetch("http://localhost:3004/Drinks",{
-      methond:"POST",
+      method:"POST",
       headers: {
         "content-Type":"application/json"
       },
