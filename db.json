@@ -71,6 +71,24 @@
       "recipe": "Pour vodka, cranberry juice, Cointreau, and lime juice into a shaker with ice cubes, shake Strain into cocktail glass Garnish with lime or lemon wheel",
       "image": "https://assets-global.website-files.com/5ddea854c6438680c98a678d/5f0e04b4791b903d08a390aa_cosmo.png",
       "id": 12
+    },
+    {
+      "name": "IRISH COFFEE",
+      "recipe": "whiskey, sugar, and cream",
+      "image": "https://vinepair.com/wp-content/uploads/2022/01/50mostpopularcocktails2022_internal_irishcoffee.jpg",
+      "id": 13
+    },
+    {
+      "name": "Martini",
+      "recipe": "- 3 oz gin or vodka - .5 oz dry vermouth - Lemon peel or olive",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/martini-1592951711.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "id": 14
+    },
+    {
+      "name": "Gimlet",
+      "recipe": "Gin and lime juice",
+      "image": "https://restaurantclicks.com/wp-content/uploads/2021/06/Gimlet.jpg",
+      "id": 15
     }
   ]
 }
