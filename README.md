@@ -7,9 +7,19 @@ Open Tab is a Drink reciepe application that serves as a quick and convenient co
 2. Cd into the project and run npm install
 3. Run the json-server with: npm run server
 4. Run the React server with: npm start
+# Executing Program 
+ This assignment required that I create a single page application using create-react-app. I added all my data using json-server to be able to make both Get and Post request to the server.  For my app I also used more than 5 components which I orginized in folders labeled Drinks and Navigation. The Drink folder held all components I would need for my Drink cards and recipes. For example my DrinkForm file held the form users would need in order to create a new reciepe for my app. 
 
+![Alt Text](https://media.giphy.com/media/3uYdTPAsIyRc5GiIH1/giphy.gif)
+ 
 
+inside my DrinkFilter I added an onchange event. This works when the user types keywords into the search bar and the drink card they are looking for appears.
 
+![Alt Text](https://media.giphy.com/media/5bb1Q0AnAwoVAAe08m/giphy.gif)
+
+I also added a home and about all of these routes were made accessible  using React Router. I used a Navbar to allow users to navigate between my four routes. 
+
+![Alt Text](https://media.giphy.com/media/W3jXsFafR6UCbkypa8/giphy.gif)
 
 
 
