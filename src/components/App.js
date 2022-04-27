@@ -1,44 +1,35 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom' 
+import { Route, Routes} from 'react-router-dom' 
 import { DrinkForm } from './Drinks/DrinkForm';
-import {Navbar} from './Navigation/Navbar';
+import { DrinkCard } from './Drinks/DrinkCard';
 import { DrinkContainer } from '../containers/DrinkContainer';
+import {Navbar} from './Navigation/Navbar';
+import {Header} from './Navigation/Header';
 import { Home } from './Home';
 import { About } from './About';
-import { DrinkCard } from './Drinks/DrinkCard';
-import {Header} from './Navigation/Header'
 import React from 'react';
+
 
 function App() {
   return (
     <div className="App">
-      <Router forceRefresh={true}>
+      
         <Navbar/>
         <Header slogan="its 5 o'clock somewhere "/>
-        <Switch>
+        <Routes>
 
-          <Route path ='/drinks/new'>
-            <DrinkForm/> 
-          </Route>
+         <Route element={<DrinkForm/>} path='/drinks/new'/>
 
-          <Route path= '/drinks/:id'>
-            <DrinkCard/>
-          </Route>
+         <Route element={<DrinkCard/>} path='/drinks/:id' />
+         <Route element={<DrinkContainer/>} path='/drinks'/>
 
-          <Route path ='/drinks'>
-            <DrinkContainer/>
-          </Route>
+         <Route element={<About/>} path='/about'/>
 
-          <Route path='/about'>
-            <About/>
-          </Route>
+         <Route element={<Home/>} path='/'/>
 
-          <Route path ='/'>
-            <Home/>
-          </Route>
-
-        </Switch>
-      </Router>
+      </Routes>
+          
+    
     </div>
   );
 }
