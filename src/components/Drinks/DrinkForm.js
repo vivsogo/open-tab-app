@@ -1,9 +1,9 @@
 import { useState } from "react"
-import { useHistory } from "react-router-dom"
+import { useNavigate} from "react-router-dom"
 import React from "react"
 
 export const DrinkForm = () => {
-  const history = useHistory()
+  const navigate = useNavigate()
   const[name,setName] =useState("")
   const[recipe,setRecipe]= useState("")
   const[image,setImage]= useState("")
@@ -22,7 +22,7 @@ export const DrinkForm = () => {
     setName("")
     setRecipe("")
     setImage("")
-    history.push("/drinks")
+    navigate("/drinks")
 
 
   }
