@@ -53,6 +53,24 @@
       "recipe": "Pour Champagne in Champagne flute Add orange juice Garnish with orange slice",
       "image": "https://assets-global.website-files.com/5ddea854c6438680c98a678d/5f0e045b83cf4b100ad9ffe8_mimosa.png",
       "id": 9
+    },
+    {
+      "name": "Daiquiri",
+      "recipe": "Pour all ingredients into a shaker with ice cubes, shake Strain into chilled cocktail glass Garnish with lime twist or wedge",
+      "image": "https://assets-global.website-files.com/5ddea854c6438680c98a678d/5f0e03a88c826e7e13d80aae_daiquiri.png",
+      "id": 10
+    },
+    {
+      "name": "Negroni",
+      "recipe": "Add all ingredients to a shaker with ice cubes, stir Strain into rocks glass full of ice Garnish with orange peel",
+      "image": "https://assets-global.website-files.com/5ddea854c6438680c98a678d/5f0e05119d00b86fa91ca835_negroni.png",
+      "id": 11
+    },
+    {
+      "name": "Cosmopolitan",
+      "recipe": "Pour vodka, cranberry juice, Cointreau, and lime juice into a shaker with ice cubes, shake Strain into cocktail glass Garnish with lime or lemon wheel",
+      "image": "https://assets-global.website-files.com/5ddea854c6438680c98a678d/5f0e04b4791b903d08a390aa_cosmo.png",
+      "id": 12
     }
   ]
 }
